@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  max-width: 1573px;
+}
+body header {
+  width: 100%;
+  height: 80px;
+  background-color: #118AB2;
+  display: flex;
+  padding: 2%;
+  color: #fff;
+}
+body header .sidebar {
+  flex-direction: column;
+  width: 24%;
+  height: 70vh;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 4px 4px 4px #118AB2;
+  margin-top: -2.2%;
+  display: none;
+  background-color: rgb(206, 215, 215);
+  margin-left: -31px;
+  color: black;
+}
+body header .sidebar .fa-xmark {
+  font-size: 40px;
+  padding-left: 80%;
+  padding-top: 2%;
+}
+body header .sidebar .sideba {
+  width: 73%;
+  height: 60px;
+  border: 1px solid #118AB2;
+  margin-left: 10%;
+  margin-top: 4%;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #118AB2;
+}
+body header .sidebar .sideba i {
+  font-size: 40px;
+}
+body header .sidebar .sideba b {
+  font-size: 28px;
+  padding-left: 4%;
+  transition: 2s linear;
+}
+body header .sidebar .sideba b a {
+  text-decoration: none;
+}
+body header .sidebar .sideba b a:hover {
+  color: #1ac2fa;
+}
+body header i {
+  font-size: 30px;
+}
+body header img {
+  width: 10%;
+  height: 40px;
+  margin-left: 1%;
+  margin-top: -0.6%;
+}
+body .oquvchilar {
+  width: 100%;
+  padding-top: 7%;
+}
+body .oquvchilar h1 {
+  text-align: center;
+}
+body .oquvchilar .search_input {
+  display: flex;
+  width: 20%;
+  margin: auto;
+  margin-top: 2%;
+}
+body .oquvchilar .search_input i {
+  font-size: 30px;
+}
+body .Abdusalomov {
+  width: 50%;
+  height: 80px;
+  border: 1.3px solid #118AB2;
+  display: flex;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 20px;
+  display: none;
+}
+body .Abdusalomov .abdusalomov {
+  width: 50%;
+  height: 80px;
+  font-size: 22px;
+  padding: 2.5%;
+}
+body .Abdusalomov .abdusalomova {
+  width: 50%;
+  height: 80px;
+  font-size: 22px;
+  padding: 2.5%;
+}
+body .qoshish {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+body .qoshish .plus {
+  width: 22%;
+  height: 250px;
+  border: 1px solid black;
+  margin-left: 29%;
+  margin-top: 10%;
+  box-shadow: 3px 3px 3px #118AB2, -3px -3px 5px #118AB2;
+  border: none;
+  border-radius: 20px;
+  color: #118AB2;
+  position: relative;
+  padding-top: 6%;
+  margin-top: 10% !important;
+  text-align: center;
+  margin: auto;
+}
+body .qoshish .plus i {
+  font-size: 38px;
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  cursor: pointer;
+}
+body .qoshish .plus b {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+body .qoshish .royhatdan_otish {
+  flex-direction: column;
+  width: 22%;
+  height: 370px;
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-top: 10%;
+  box-shadow: 3px 3px 3px #118AB2, -3px -3px 5px #118AB2;
+  border: none;
+  border-radius: 20px;
+  display: none;
+}
+body .qoshish .royhatdan_otish b {
+  padding-left: 16%;
+  font-family: sans-serif;
+  color: #515151;
+}
+body .qoshish .royhatdan_otish .xmark {
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+body .qoshish .royhatdan_otish .xmark i {
+  cursor: pointer;
+  position: absolute;
+  top: -15px;
+  left: 95%;
+  font-size: 40px;
+  color: #118AB2;
+}
+body .qoshish .royhatdan_otish select {
+  width: 60%;
+  height: 40px;
+  margin-left: 16%;
+  font-size: 16px;
+}
+body .qoshish .royhatdan_otish button {
+  width: 60%;
+  height: 36px;
+  margin-left: 16%;
+  border: 3px solid #118AB2;
+  color: #118AB2;
+  font-size: 20px;
+}
+body .ismAbdusalomov {
+  width: 100%;
+  padding-top: 1%;
+}
+body .ismAbdusalomov .ism {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-family: sans-serif;
+  padding-top: 0.4%;
+}
+body .ismAbdusalomov .sana {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 2%;
+  font-family: "Poppins";
+}
+body .ismAbdusalomov .oylar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+body .ismAbdusalomov .oylar .oylarrr {
+  margin-top: 3%;
+  display: flex;
+  width: 23%;
+  height: 230px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #118AB2, -3px -3px 5px #118AB2;
+  border: none;
+}
+body .ismAbdusalomov .oylar .oylarrr .tolov_miqdori {
+  width: 60%;
+  padding-left: 12%;
+  padding-top: 8%;
+}
+body .ismAbdusalomov .oylar .oylarrr .tolov_miqdori p {
+  font-size: 18px;
+  color: #898989;
+  font-family: "Poppins";
+}
+body .ismAbdusalomov .oylar .oylarrr .tolov_miqdori b {
+  font-size: 26px;
+}
+body .ismAbdusalomov .oylar .oylarrr .div_blue {
+  width: 20%;
+  height: 230px;
+  background-color: #118AB2;
+  margin-left: 10%;
+}/*# sourceMappingURL=style.css.map */
